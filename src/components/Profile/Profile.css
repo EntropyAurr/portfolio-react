@@ -1,0 +1,56 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.profile img {
+  width: 14rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 6.5rem;
+}
+.profile h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 3rem;
+  font-family: "Inter";
+}
+.profile h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b41f55 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.profile p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+
+.profile-action {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+.profile-connect {
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b41f55 106.28%);
+  cursor: pointer;
+}
+.profile-connect:hover {
+  border: 2px solid #fff;
+}
+.profile-resume {
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.profile-resume:hover {
+  border-color: #e76f51;
+}
