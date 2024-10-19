@@ -1,12 +1,13 @@
-import React from "react";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
+import About from "./components/About/About";
 
 export default function App() {
   return (
     <div>
       <Navbar />
       <Profile />
+      <About />
     </div>
   );
 }

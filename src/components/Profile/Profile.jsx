@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from "react";
 import "./Profile.css";
 import profile from "../../assets/profile.jpg";
 
