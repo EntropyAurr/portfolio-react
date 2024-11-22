@@ -1,8 +1,7 @@
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile from "../../assets/profile.jpg";
 
-const About = () => {
+export default function About() {
   return (
     <div className="about">
       <div className="about-title">
@@ -12,55 +11,66 @@ const About = () => {
 
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile} alt="" />
-        </div>
-
-        <div className="about-right">
+          {/* <img src={profile} alt="" /> */}
           <div className="about-para">
             <p>I am a self-taught Front-end Developer with...</p>
             <p>My passsion in Front-end development is...</p>
           </div>
+        </div>
 
+        <div className="about-right">
           <div className="about-skills">
             <div className="skill">
               <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <div>
+                <hr style={{ width: "100%" }} />
+              </div>
             </div>
 
             <div className="skill">
               <p>JavaScript</p>
-              <hr style={{ width: "70%" }} />
+              <div>
+                <hr style={{ width: "70%" }} />
+              </div>
             </div>
 
             <div className="skill">
               <p>SCSS</p>
-              <hr style={{ width: "80%" }} />
+              <div>
+                <hr style={{ width: "80%" }} />
+              </div>
             </div>
 
             <div className="skill">
               <p>Tailwind CSS</p>
-              <hr style={{ width: "80%" }} />
+              <div>
+                <hr style={{ width: "70%" }} />
+              </div>
             </div>
 
             <div className="skill">
               <p> Bootstrap</p>
-              <hr style={{ width: "80%" }} />
+              <div>
+                <hr style={{ width: "70%" }} />
+              </div>
             </div>
 
             <div className="skill">
-              <p>React</p>
-              <hr style={{ width: "60%" }} />
+              <p>ReactJS</p>
+              <div>
+                <hr style={{ width: "60%" }} />
+              </div>
             </div>
 
             <div className="skill">
               <p>TypeScript</p>
-              <hr style={{ width: "70%" }} />
+              <div>
+                <hr style={{ width: "60%" }} />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
-
-export default About;
+}

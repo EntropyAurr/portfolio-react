@@ -2,18 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 .profile img {
-  width: 14rem;
+  width: 22rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 6.5rem;
+  margin-top: 7rem;
 }
 .profile h1 {
   text-align: center;
   width: 70%;
-  font-size: 3rem;
+  font-size: 4.8rem;
   font-family: "Inter";
 }
 .profile h1 span {
@@ -25,29 +25,32 @@
 .profile p {
   width: 50%;
   text-align: center;
-  font-size: 1.2rem;
-  line-height: 2.5rem;
+  font-size: 2rem;
+  line-height: 2;
 }
 
 .profile-action {
+  width: 44rem;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  font-size: 1.3rem;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  gap: 2.4rem;
+  font-size: 2rem;
+  margin-bottom: 4.8rem;
 }
 .profile-connect {
-  padding: 1rem 1.5rem;
-  border-radius: 3rem;
+  padding: 1.5rem 2.4rem;
+  border-radius: 4.8rem;
   background: linear-gradient(264deg, #df8908 -5.09%, #b41f55 106.28%);
   cursor: pointer;
+  border: 2px solid #e76f51;
 }
 .profile-connect:hover {
   border: 2px solid #fff;
 }
 .profile-resume {
-  padding: 1rem 3rem;
-  border-radius: 3rem;
+  padding: 1.5rem 4.5rem;
+  border-radius: 4.8rem;
   border: 2px solid #fff;
   cursor: pointer;
 }

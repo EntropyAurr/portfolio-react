@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1.5rem 5rem;
+  margin: 2.4rem 8rem;
 }
 .navbar a {
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   font-weight: 600;
   background: linear-gradient(270deg, #df8908 10%, #b41f55 100%);
   background-clip: text;
@@ -16,14 +16,14 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 3.5rem;
-  font-size: 1.2rem;
+  gap: 5.5rem;
+  font-size: 2rem;
 }
 .nav-connect {
-  padding: 1rem 1.5rem;
-  border-radius: 3rem;
+  padding: 1.4rem 2rem;
+  border-radius: 4.8rem;
   background: linear-gradient(267deg, #da7c25 0.36%, #b92e31 102%);
-  font-size: 1.2rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: 0.5s;
 }
