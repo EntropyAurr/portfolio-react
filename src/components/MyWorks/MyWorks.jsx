@@ -10,7 +10,11 @@ export default function MyWorks() {
         <img src={theme_pattern} />
       </div>
 
-      <div className="myworks-container"></div>
+      <div className="myworks-container">
+        {mywork_data.map((work, index) => {
+          return <img src={work.w_img} key={index} />;
+        })}
+      </div>
     </div>
   );
 }

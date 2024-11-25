@@ -1,0 +1,5 @@
+.myworks-container img {
+  width: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+}
