@@ -1,0 +1,47 @@
+.footer {
+  margin: 5rem 17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top-left {
+  max-width: 40rem;
+  font-size: 2rem;
+}
+.footer-top-left img {
+  width: 20rem;
+}
+
+.footer-top-right {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+.footer-email-input {
+  display: flex;
+  padding: 2rem 3rem;
+  gap: 3rem;
+  border-radius: 5rem;
+  background-color: #32323b;
+  padding-right: 5rem;
+}
+.footer-email-input input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #a0a0a0;
+  font-size: 1.8rem;
+}
+.footer-subscribe {
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  border-radius: 5rem;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b92e31 102%);
+  cursor: pointer;
+}
