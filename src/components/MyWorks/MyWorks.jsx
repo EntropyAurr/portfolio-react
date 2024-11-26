@@ -1,6 +1,7 @@
 import "./MyWorks.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mywork_data from "../../assets/mywork_data";
+import arrow_icon from "../../assets/arrow_icon.svg";
 
 export default function MyWorks() {
   return (
@@ -14,6 +15,11 @@ export default function MyWorks() {
         {mywork_data.map((work, index) => {
           return <img src={work.w_img} key={index} />;
         })}
+      </div>
+
+      <div className="myworks-showmore">
+        <p>Show More</p>
+        <img src={arrow_icon} />
       </div>
     </div>
   );
