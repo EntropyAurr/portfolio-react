@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 8rem;
-  margin: 8rem 17rem;
+  margin: 8rem 0;
 }
 
 .myworks-title {
@@ -12,7 +12,7 @@
 }
 .myworks-title h1 {
   padding: 0 3rem;
-  font-size: 6.4rem;
+  font-size: 5rem;
 }
 .myworks-title img {
   position: absolute;
