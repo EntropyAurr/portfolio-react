@@ -1,5 +1,6 @@
 import "./Profile.css";
 import profile from "../../assets/profile.jpg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Profile() {
   return (
@@ -12,7 +13,11 @@ export default function Profile() {
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit officiis nesciunt ducimus quae deleniti corrupti fuga eveniet saepe quas nostrum.</p>
 
       <div className="profile-action">
-        <div className="profile-connect">Connect with me</div>
+        <div className="profile-connect">
+          <AnchorLink className="anchor-link" href="#contact" offset={50}>
+            Connect with me
+          </AnchorLink>
+        </div>
         <div className="profile-resume">My resume</div>
       </div>
     </div>

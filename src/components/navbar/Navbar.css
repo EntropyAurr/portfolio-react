@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 2.4rem 8rem;
 }
-.navbar a {
+.navbar a.logo {
   font-size: 2.8rem;
   font-weight: 600;
   background: linear-gradient(270deg, #df8908 10%, #b41f55 100%);
@@ -12,6 +12,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -19,6 +20,7 @@
   gap: 5.5rem;
   font-size: 2rem;
 }
+
 .nav-connect {
   padding: 1.4rem 2rem;
   border-radius: 4.8rem;
@@ -29,4 +31,67 @@
 }
 .nav-connect:hover {
   transform: scale(1.05);
+}
+
+.nav-menu li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+.anchor-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-mob-close {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin: 2rem 5rem;
+  }
+
+  .nav-connect {
+    display: none;
+  }
+
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 3rem;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 35rem;
+    width: 30px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    z-index: 2;
+    width: 35rem;
+    height: 100%;
+    right: -35rem;
+    gap: 4rem;
+    background-color: #2d6a4f;
+    transition: right 0.5s;
+  }
+  .nav-menu li {
+    font-size: 4rem;
+    padding-left: 12rem;
+    flex-direction: row;
+    gap: 3rem;
+  }
 }

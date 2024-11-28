@@ -5,7 +5,7 @@ import arrow_icon from "../../assets/arrow_icon.svg";
 
 export default function MyWorks() {
   return (
-    <div className="myworks">
+    <div id="myworks" className="myworks">
       <div className="myworks-title">
         <h1>My latest works</h1>
         <img src={theme_pattern} />
