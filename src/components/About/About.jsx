@@ -13,8 +13,8 @@ export default function About() {
         <div className="about-left">
           {/* <img src={profile} alt="" /> */}
           <div className="about-para">
-            <p>I am a self-taught Front-end Developer with...</p>
-            <p>My passsion in Front-end development is...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus odit quibusdam quasi voluptates recusandae exercitationem laborum, quia nulla laboriosam nobis.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ipsum beatae, magni ipsam assumenda ea distinctio enim.</p>
           </div>
         </div>
 

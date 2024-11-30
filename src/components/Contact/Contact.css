@@ -110,3 +110,62 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
+
+/*----- Responsive -----*/
+@media (max-width: 768px) {
+  .contact {
+    gap: 6rem;
+    margin: 4rem 7rem;
+    align-items: start;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .contact-title h1 {
+    font-size: 4rem;
+    padding: 0;
+  }
+  .contact-title img {
+    width: 10rem;
+    right: -2rem;
+  }
+
+  .contact-left h2 {
+    font-size: 4.5rem;
+  }
+  .contact-left p {
+    font-size: 1.8rem;
+  }
+
+  .contact-details {
+    gap: 1.7rem;
+  }
+  .contact-detail img {
+    width: 25px;
+  }
+
+  .contact-right {
+    margin-top: 2rem;
+  }
+  .contact-right label {
+    font-size: 2rem;
+  }
+  .contact-right input {
+    width: 100%;
+    font-size: 2rem;
+    height: 6rem;
+  }
+  .contact-right textarea {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .contact-submit {
+    font-size: 2rem;
+    padding: 1.2rem 3rem;
+    border-radius: 1.2rem;
+  }
+}

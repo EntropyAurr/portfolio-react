@@ -52,6 +52,11 @@
   display: none;
 }
 
+.nav-mob-open {
+  display: none;
+}
+
+/*----- Responsive -----*/
 @media (max-width: 768px) {
   .navbar {
     margin: 2rem 5rem;
@@ -62,16 +67,18 @@
   }
 
   .nav-mob-open {
+    cursor: pointer;
     display: block;
     position: fixed;
     right: 3rem;
   }
 
   .nav-mob-close {
+    cursor: pointer;
     display: block;
     position: relative;
     top: 2rem;
-    left: 35rem;
+    left: 29rem;
     width: 30px;
   }
 

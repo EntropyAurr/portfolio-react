@@ -9,7 +9,12 @@ export default function Navbar() {
   const [menu, setMenu] = useState("home");
   const menuRef = useRef();
 
-  const openMenu = () => {};
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+  const closeMenu = () => {
+    menuRef.current.style.right = "-35rem";
+  };
 
   return (
     <div className="navbar">
@@ -17,10 +22,10 @@ export default function Navbar() {
       <a className="logo" href="#">
         AURORA
       </a>
-      <img src={menu_open} className="nav-mob-open" />
+      <img src={menu_open} onClick={openMenu} className="nav-mob-open" />
 
-      <ul className="nav-menu">
-        <img src={menu_close} className="nav-mob-close" />
+      <ul ref={menuRef} className="nav-menu">
+        <img src={menu_close} onClick={closeMenu} className="nav-mob-close" />
 
         <li>
           <AnchorLink className="anchor-link" href="#home" offset={50}>

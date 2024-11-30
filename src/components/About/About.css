@@ -27,6 +27,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 8rem;
 }
+
 .about-left img {
   width: 27rem;
   object-fit: cover;
@@ -56,6 +57,9 @@
   align-items: center;
   transition: 0.3s;
 }
+.skill:hover {
+  transform: scale(1.1);
+}
 .skill p {
   min-width: 12.8rem;
   font-size: 2rem;
@@ -63,11 +67,48 @@
 .skill div {
   width: 100%;
 }
-
 .skill hr {
   outline: none;
   border: none;
   height: 0.8rem;
   border-radius: 4.8rem;
   background: linear-gradient(264deg, #df8908 -5.09%, #b41f55 106.28%);
+}
+
+/*----- Responsive -----*/
+@media (max-width: 768px) {
+  .about {
+    gap: 5rem;
+    margin: 4rem 7rem;
+    align-items: start;
+  }
+
+  .about-title h1 {
+    font-size: 4rem;
+    padding: 0;
+  }
+  .about-title img {
+    width: 10rem;
+    right: -2rem;
+  }
+
+  .about-sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-para {
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+  .about-skills {
+    gap: 2rem;
+  }
+  .skill p {
+    font-size: 1.8rem;
+  }
+  .skill hr {
+    height: 0.7rem;
+  }
 }
