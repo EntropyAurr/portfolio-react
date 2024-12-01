@@ -4,7 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Profile() {
   return (
-    <div className="profile">
+    <div id="home" className="profile">
       <img src={profile} />
 
       <h1>

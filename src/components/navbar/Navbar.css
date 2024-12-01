@@ -1,16 +1,31 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.7rem 3rem;
+  backdrop-filter: blur(30px);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2.4rem 8rem;
 }
-.navbar a.logo {
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo span {
   font-size: 2.8rem;
   font-weight: 600;
   background: linear-gradient(270deg, #df8908 10%, #b41f55 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.logo img {
+  width: 3.8rem;
 }
 
 .nav-menu {

@@ -13,7 +13,11 @@ export default function MyWorks() {
 
       <div className="myworks-container">
         {mywork_data.map((work, index) => {
-          return <img src={work.w_img} key={index} />;
+          return (
+            <a href={work.w_link} target="blank" key={index}>
+              <img src={work.w_img} />
+            </a>
+          );
         })}
       </div>
 

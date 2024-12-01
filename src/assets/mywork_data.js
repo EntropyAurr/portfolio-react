@@ -10,11 +10,13 @@ const mywork_data = [
     w_no: 1,
     w_name: "Adventure Web",
     w_img: project1_img,
+    w_link: "https://entropyaurr.github.io/Adventure-Website/",
   },
   {
     w_no: 2,
     w_name: "Music Player Web App",
     w_img: project2_img,
+    w_link: "https://entropyaurr.github.io/Music-Player/",
   },
   {
     w_no: 3,
