@@ -80,7 +80,7 @@
   padding-left: 2rem;
   border-radius: 4px;
   background-color: #32323c;
-  color: #a0a0a0;
+  color: #fff;
   font-size: 2rem;
 }
 .contact-right textarea {
@@ -91,7 +91,7 @@
   padding: 2.5rem;
   border-radius: 4px;
   background-color: #32323c;
-  color: #a0a0a0;
+  color: #fff;
   font-size: 2rem;
 }
 

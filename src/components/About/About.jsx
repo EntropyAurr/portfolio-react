@@ -14,7 +14,7 @@ export default function About() {
           {/* <img src={profile} alt="" /> */}
           <div className="about-para">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus odit quibusdam quasi voluptates recusandae exercitationem laborum, quia nulla laboriosam nobis.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ipsum beatae, magni ipsam assumenda ea distinctio enim.</p>
+            <p>Developed several personal projects demonstrating expertise in front-end development.</p>
           </div>
         </div>
 

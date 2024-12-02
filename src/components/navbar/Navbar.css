@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 1.7rem 3rem;
+  padding: 1.7rem 4.5rem;
   backdrop-filter: blur(30px);
   display: flex;
   align-items: center;
@@ -53,10 +53,31 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  position: relative;
+}
+.nav-menu li::before {
+  content: "";
+  position: absolute;
+  height: 0.25rem;
+  width: 2rem;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b92e31 102%);
+  bottom: -2rem;
+  border-radius: 0.5rem;
+  transform: translateX(-1.5rem);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.nav-menu li:hover::before {
+  width: 100%;
+  opacity: 1;
+  transform: translateX(0);
 }
 .nav-menu li img {
-  display: flex;
-  margin: auto;
+  position: absolute;
+  width: 6rem;
+  top: 0.2rem;
+  left: 0.5rem;
+  z-index: -1;
 }
 .anchor-link {
   text-decoration: none;

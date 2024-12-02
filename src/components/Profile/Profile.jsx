@@ -10,7 +10,8 @@ export default function Profile() {
       <h1>
         <span>I&apos;m Au Duong,</span> Front-end Developer from HCM City.
       </h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit officiis nesciunt ducimus quae deleniti corrupti fuga eveniet saepe quas nostrum.</p>
+
+      <p>Self-taught developer with a background in engineering. Passionate about creating responsive, user-friendly web applications. Proficient in problem-solving and continuously improving coding skills. </p>
 
       <div className="profile-action">
         <div className="profile-connect">
