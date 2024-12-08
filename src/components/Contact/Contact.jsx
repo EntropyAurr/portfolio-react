@@ -57,21 +57,23 @@ export default function Contact() {
             </div>
 
             <div className="contact-detail">
-              <img src={github_icon} />
-              <p>EntropyAurr</p>
+              <a href="https://github.com/EntropyAurr" target="blank">
+                <img src={github_icon} />
+                EntropyAurr
+              </a>
             </div>
           </div>
         </div>
 
         <form onSubmit={onSubmit} className="contact-right">
-          <label>Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" />
+          <label htmlFor="name">Your Name</label>
+          <input id="name" type="text" placeholder="Enter your name" name="name" />
 
-          <label>Your Email</label>
-          <input type="email" placeholder="Enter your email" name="email" />
+          <label htmlFor="email">Your Email</label>
+          <input id="email" type="email" placeholder="Enter your email" name="email" />
 
-          <label>Write your message here</label>
-          <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
+          <label htmlFor="message">Write your message here</label>
+          <textarea id="message" name="message" rows="8" placeholder="Enter your message"></textarea>
 
           <button type="submit" className="contact-submit">
             Send
